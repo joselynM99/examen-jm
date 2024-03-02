@@ -1,0 +1,3 @@
+rootProject.name = "ExamenDistriJessi"
+include("app-books")
+include("app-authors")

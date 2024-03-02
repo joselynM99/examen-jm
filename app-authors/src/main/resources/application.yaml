@@ -1,0 +1,18 @@
+jakarta:
+  persistence:
+    default:
+      provider: org.eclipse.persistence.jpa.PersistenceProvider
+      jta-data-source: jdbc/postgres
+      properties:
+        eclipselink:
+          logging:
+            level: FINE
+
+db:
+  data-sources:
+    -
+      name: jdbc/postgres
+      db-kind: postgresql
+      username: distribuia
+      password: 2ic23cPGGoEsc9OZb0v3GvwyUt36YJ5C
+      jdbc-url: jdbc:postgresql://dpg-cmossu7qd2ns738mohbg-a.oregon-postgres.render.com/distribuida_fjus
